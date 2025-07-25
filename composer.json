@@ -1,5 +1,5 @@
 {
-    "name": "gupalo/geoip",
+    "name": "gupalo/geoip2",
     "type": "library",
     "description": "Simple GeoIP Client for MaxMind and IP2Location Databases",
     "keywords": ["geoip", "maxmind", "ip2location", "geoip2", "client", "country", "city", "proxy"],
