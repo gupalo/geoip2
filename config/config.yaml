@@ -2,21 +2,21 @@ parameters:
     env(GEOIP_DIR): '%kernel.project_dir%/data/geoip'
 
 services:
-    Gupalo\GeoIp\GeoIp:
+    Gupalo\GeoIp2\GeoIp:
         public: true
         arguments:
-            - '@Gupalo\GeoIp\MaxMindGeoIp'
-            - '@Gupalo\GeoIp\Ip2LocationGeoIp'
+            - '@Gupalo\GeoIp2\MaxMindGeoIp'
+            - '@Gupalo\GeoIp2\Ip2LocationGeoIp'
 
-    Gupalo\GeoIp\MaxMindGeoIp:
+    Gupalo\GeoIp2\MaxMindGeoIp:
         public: true
         arguments: [ '%env(resolve:GEOIP_DIR)%' ]
 
-    Gupalo\GeoIp\Ip2LocationGeoIp:
+    Gupalo\GeoIp2\Ip2LocationGeoIp:
         public: true
         arguments: [ '%env(resolve:GEOIP_DIR)%' ]
 
-    Gupalo\GeoIp\Twig\GeoIpExtension:
+    Gupalo\GeoIp2\Twig\GeoIpExtension:
         public: true
         tags: [ 'twig.extension' ]
-        arguments: [ '@Gupalo\GeoIp\GeoIp' ]
+        arguments: [ '@Gupalo\GeoIp2\GeoIp' ]
