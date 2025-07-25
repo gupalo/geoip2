@@ -1,11 +1,11 @@
 GeoIP Client
 ==================
 
-[![](http://poser.pugx.org/gupalo/geoip/version)](https://packagist.org/packages/gupalo/geoip)
-[![](http://poser.pugx.org/gupalo/geoip/require/php)](https://packagist.org/packages/gupalo/geoip)
-[![](https://img.shields.io/packagist/dt/gupalo/geoip)](https://packagist.org/packages/gupalo/geoip)
-![](https://img.shields.io/github/last-commit/gupalo/geoip/main)
-![](https://img.shields.io/github/actions/workflow/status/gupalo/geoip/test.yaml?branch=main)
+[![](http://poser.pugx.org/gupalo/geoip2/version)](https://packagist.org/packages/gupalo/geoip2)
+[![](http://poser.pugx.org/gupalo/geoip2/require/php)](https://packagist.org/packages/gupalo/geoip2)
+[![](https://img.shields.io/packagist/dt/gupalo/geoip2)](https://packagist.org/packages/gupalo/geoip2)
+![](https://img.shields.io/github/last-commit/gupalo/geoip2/main)
+![](https://img.shields.io/github/actions/workflow/status/gupalo/geoip2/test.yaml?branch=main)
 
 
 ## Install
@@ -108,7 +108,7 @@ Add to `config/services.yaml`
 
 ```yaml
 imports:
-    - { resource: '../vendor/gupalo/geoip/config/config.yaml' }
+    - { resource: '../vendor/gupalo/geoip2/config/config.yaml' }
 ```
 
 You can copy config to your .yaml-files without import and tune for your needs.
