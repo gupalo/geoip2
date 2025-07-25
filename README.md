@@ -11,7 +11,7 @@ GeoIP Client
 ## Install
 
 ```bash
-composer require gupalo/geoip
+composer require gupalo/geoip2
 ```
 
 ## Usage
