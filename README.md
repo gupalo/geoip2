@@ -20,7 +20,7 @@ See `examples/*.php`.
 
 
 ```php
-use Gupalo\GeoIp\GeoIp;
+use Gupalo\GeoIp2\GeoIp;
 
 require_once(__DIR__ . '/vendor/autoload.php');
 

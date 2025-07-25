@@ -1,8 +1,8 @@
 <?php
 
-use Gupalo\GeoIp\GeoIp;
-use Gupalo\GeoIp\Ip2LocationGeoIp;
-use Gupalo\GeoIp\MaxMindGeoIp;
+use Gupalo\GeoIp2\GeoIp;
+use Gupalo\GeoIp2\Ip2LocationGeoIp;
+use Gupalo\GeoIp2\MaxMindGeoIp;
 
 require_once(__DIR__ . '/../vendor/autoload.php');
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace Gupalo\GeoIp\Tests;
+namespace Gupalo\GeoIp2\Tests;
 
-use Gupalo\GeoIp\GeoIp;
+use Gupalo\GeoIp2\GeoIp;
 use PHPUnit\Framework\TestCase;
-use Gupalo\GeoIp\Ip2LocationGeoIp;
-use Gupalo\GeoIp\MaxMindGeoIp;
+use Gupalo\GeoIp2\Ip2LocationGeoIp;
+use Gupalo\GeoIp2\MaxMindGeoIp;
 use Prophecy\PhpUnit\ProphecyTrait;
 use Prophecy\Prophecy\ObjectProphecy;
 

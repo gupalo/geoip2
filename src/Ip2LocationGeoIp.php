@@ -1,6 +1,6 @@
 <?php
 
-namespace Gupalo\GeoIp;
+namespace Gupalo\GeoIp2;
 
 use IP2Location\Database;
 use Throwable;

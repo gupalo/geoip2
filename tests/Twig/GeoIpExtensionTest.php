@@ -3,8 +3,8 @@
 namespace Gupalo\Tests\GeoIp\Twig;
 
 use PHPUnit\Framework\TestCase;
-use Gupalo\GeoIp\GeoIp;
-use Gupalo\GeoIp\Twig\GeoIpExtension;
+use Gupalo\GeoIp2\GeoIp;
+use Gupalo\GeoIp2\Twig\GeoIpExtension;
 use Prophecy\PhpUnit\ProphecyTrait;
 use Prophecy\Prophecy\ObjectProphecy;
 use Twig\TwigFilter;

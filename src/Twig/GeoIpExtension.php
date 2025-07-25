@@ -1,8 +1,8 @@
 <?php
 
-namespace Gupalo\GeoIp\Twig;
+namespace Gupalo\GeoIp2\Twig;
 
-use Gupalo\GeoIp\GeoIp;
+use Gupalo\GeoIp2\GeoIp;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;
 
